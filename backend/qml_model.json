@@ -1,0 +1,51 @@
+{
+  "trained_at": "2026-10-07T05:39:53.476736+00:00",
+  "qiskit_version": "2.5.2",
+  "n_qubits": 3,
+  "reps": 2,
+  "depth": 10,
+  "gate_count": 18,
+  "weights": [
+    -1.0763794167345138,
+    1.7634368133883136,
+    3.675942854980374,
+    -1.5675240801563792,
+    1.5547188135527974,
+    4.685196390074162,
+    -3.9430680813235863,
+    1.5141159502942114,
+    1.3099690972282145
+  ],
+  "scaler": {
+    "min": [
+      6.709573020155523,
+      6.8970255836278875,
+      0.7333454637859694
+    ],
+    "max": [
+      8.196142133746092,
+      7.711547910971973,
+      1.8532778662301788
+    ]
+  },
+  "feature_names": [
+    "orbital radius / 1000 km",
+    "speed km/s",
+    "inclination rad"
+  ],
+  "label_convention": "<Z0> > 0 => DEBRIS_LIKE; labels from CelesTrak names (DEB / R/B)",
+  "metrics": {
+    "n_train": 300,
+    "n_test": 100,
+    "final_loss": 0.3850389327141275,
+    "train_accuracy": 0.8733333333333333,
+    "test_accuracy": 0.86,
+    "baseline_test_accuracy": 0.84,
+    "confusion": {
+      "tp": 51,
+      "fp": 11,
+      "tn": 35,
+      "fn": 3
+    }
+  }
+}

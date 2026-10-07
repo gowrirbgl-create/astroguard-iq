@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+qiskit
+numpy
+scipy
+scikit-learn
+requests
+sgp4
